@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(2, 7, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px;
+}
+
+
+#top-img {
+    max-width: 100%;
+    position: absolute;
+    top: 0%;
+}
+
+#title {
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    transform: translate(-50%);
+    font-size: 75px;
+    font-weight: bold;
+    animation: fade-in 1s;
+    text-shadow: #ffffff 0px 0px 5px;
+}
+
+
+#description {
+    position: absolute;
+    left: 5.5%;
+    top: 23%;
+    color: rgb(215, 233, 239);
+    animation: fade-in 4s;
+}
+
+
+#discord {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    transform: translate(0% -100%);
+    background-color: rgb(4, 14, 34);
+    margin: 15px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+
+#discord p.title {
+    color: cornflowerblue;
+    text-align: center;
+    margin: 2px;
+    text-shadow: cornflowerblue 0px 0px 5px;
+}
+
+#discord p.description {
+    color: rgb(254, 254, 254);
+    text-align: center;
+    margin: 2px;
+}
+
+
+#categories {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 70%;
+    transform: translate(-50%);
+}
+
+
+.category {
+    background-color: #040e22;
+    border-radius: 5px;
+    max-width: fit-content;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    animation: fade-in 7s;
+}
+
+.category:hover {
+    background-color: rgb(6, 21, 50);
+    text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+}
+
+.category p.title {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.category img.image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+#entries {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 90%;
+    transform: translate(-50%);
+    visibility: hidden;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.entry {
+    background-image: -webkit-linear-gradient(left, 
+    #091b3f 0%, 
+    rgba(0,0,0,0) 75%
+    );
+    border-radius: 5px;
+    max-width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 30px 10px;
+    animation: fade-in 2s;
+}
+
+.entry .title{
+    font-size: 50px;
+    margin: 5px;
+}
+
+
+.entry .description{
+    margin: 5px;
+    color: lightblue;
+}
+
+
+.entry .image{
+    align-items: center;
+    margin: 5px;
+    max-width: 550px;
+    max-height: 550px;
+    object-fit: contain;
+}
+
+
+@keyframes fade-in {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
