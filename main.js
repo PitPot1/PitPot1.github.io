@@ -8,24 +8,24 @@ const entries = {
         {
             "title": "Mods",
             "description": "I have been making forge mods for on and off for around a year. It is far from being one of my strong points thought.",
-            "image": ""
+            "image": "./assets/forge-logo.jpg"
         },
         {
             "title": "Skript",
             "description": "I used Skript in a lot of projects and have a good understanding of how it works, even thought I highly prefer using java over it.",
-            "image": ""
+            "image": "./assets/skript-logo.jpg"
         }
     ],
     "web-dev-category": [
         {
             "title": "Web Servers & APIs",
             "description": "I have been using NodeJS for over a year now and can make high performance, scalable web servers and APIs. This includes websites with advanced functionalities such as authentification, user data saving...",
-            "image": ""
+            "image": "./assets/nodejs-logo.png"
         },
         {
             "title": "Web Pages",
             "description": "I am good at front end development and have experience with HTML, CSS and JavaScript. Allowing me to make good looking user interfaces.",
-            "image": ""
+            "image": "./assets/html-logo.avif"
         }
     ],
     "minecraft-building-category": [

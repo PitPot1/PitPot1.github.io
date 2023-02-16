@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>PitPot's Portfolio</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <img src="./assets/top.png" id="top-img">
+    
+    <p id="title">PitPot's Portfolio</p>
+    <p id="description">
+        Hi! I'm PitPot, a 17 year old european highschool student.<br>
+        I like coding, building and graphic designing.<br>
+        <br>
+        You can see some of my past projects by clicking on one of the categories below!
+    </p>
+
+    <div id="discord">
+        <p class="title">Discord tag</p>
+        <p class="description">PitPot#0001</p>
+    </div>
+
+    
+    <div id="categories">
+
+        <div class="category" id="minecraft-dev-category" onclick="selectCategory('minecraft-dev-category')">
+            <p class="title">Minecraft Development</p>
+            <img src="./assets/spigot-logo.png" class="image">
+        </div>
+
+        <div class="category" id="web-dev-category" onclick="selectCategory('web-dev-category')">
+            <p class="title">Web Development</p>
+            <img src="./assets/html-logo.avif" class="image">
+        </div>
+
+        <div class="category" id="minecraft-building-category" onclick="selectCategory('minecraft-building-category')">
+            <p class="title">Minecraft Building</p>
+            <img src="./assets/1.png" class="image">
+        </div>
+
+        <div class="category" id="graphic-design-category" onclick="selectCategory('graphic-design-category')">
+            <p class="title">Graphic Design</p>
+            <img src="./assets/logo.png" class="image">
+        </div>
+
+    </div>
+
+
+    <div id="entries">
+        
+    </div>
+
+</body>
+</html>
