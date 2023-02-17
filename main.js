@@ -36,17 +36,17 @@ const entries = {
         },
         {
             "title": "Faction Spawn",
-            "description": "This spawn build was made for a small factions server back in 2019, the server is now long gone.",
+            "description": "This spawn build was made for a small factions server back in 2022, the server is now long gone.",
             "image": "./assets/5.png"
         },
         {
             "title": "Server Hub",
-            "description": "This hub build was for a network that used to be active around 2020, the build is much bigger but this is the only screenshot that I still have.",
+            "description": "This hub build was for a network that used to be active around 2022, the build is much bigger but this is the only screenshot that I still have.",
             "image": "./assets/1.png"
         },
         {
             "title": "Floating Islands",
-            "description": "This small build was made back in 2020 as an experiment to see if I could make good looking floating islands, the result turned out alright.",
+            "description": "This small build was made back in 2021 as an experiment to see if I could make good looking floating islands, the result turned out alright.",
             "image": "./assets/4.png"
         }
     ],
