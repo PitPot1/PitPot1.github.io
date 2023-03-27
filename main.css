@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(2, 7, 17);
     font-family: Arial, Helvetica, sans-serif;
@@ -79,8 +83,9 @@ body {
 }
 
 .category:hover {
-    background-color: rgb(6, 21, 50);
-    text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+    background-color: rgb(7, 23, 56);
+    box-shadow: rgb(19, 69, 170) 0px 0px 10px;
+    cursor: pointer;
 }
 
 .category p.title {
@@ -108,10 +113,43 @@ body {
     border-radius: 10px;
 }
 
+
+.sub-category {
+    background-image: -webkit-linear-gradient(left, 
+    #050e22 0%, 
+    rgba(0,0,0,0) 75%
+    );
+    border-radius: 5px;
+    max-width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 30px 10px;
+    animation: fade-in 2s;
+}
+
+.sub-category .title{
+    font-size: 50px;
+    margin: 5px;
+}
+
+
+.sub-category .description{
+    margin: 5px;
+    color: rgb(225, 225, 225);
+}
+
+.sub-category .image{
+    margin: 5px;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+
 .entry {
     background-image: -webkit-linear-gradient(left, 
-    #091b3f 0%, 
-    rgba(0,0,0,0) 75%
+    #091a3d 0%, 
+    rgba(0,0,0,0) 100%
     );
     border-radius: 5px;
     max-width: 100%;
@@ -139,6 +177,40 @@ body {
     max-width: 550px;
     max-height: 550px;
     object-fit: contain;
+}
+
+
+.review_box {
+    border-radius: 2px;
+    background-color: #050e22;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    max-width: 50%;
+    width: fit-content;
+}
+
+
+.review_author {
+    color: white;
+    font-size: 19px;
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+.review_stars {
+    color: rgb(255, 225, 0);
+    font-size: 19px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+
+.review_message {
+    color: rgb(222, 222, 222);
+    font-size: 15px;
+    margin: 5px 5px;
 }
 
 
