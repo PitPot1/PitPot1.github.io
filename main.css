@@ -16,29 +16,34 @@ body {
     top: 0%;
 }
 
-#title {
+
+#title-box {
     position: absolute;
-    left: 25%;
-    top: 0%;
-    transform: translate(-50%);
+    padding: 20px;
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
     font-size: 75px;
     font-weight: bold;
     animation: fade-in 1s;
-    text-shadow: #ffffff 0px 0px 5px;
+    z-index: 10;
+    text-shadow: rgba(0, 0, 0, 0.437) 0px 0px 10px;
 }
 
 
 #description {
-    position: absolute;
-    left: 5.5%;
-    top: 23%;
+    margin: 5px;
     color: rgb(215, 233, 239);
     animation: fade-in 4s;
+    z-index: 10;
+    text-shadow: black 0px 0px 5px;
 }
 
 
 #discord {
-    position: absolute;
+    position: fixed;
     right: 0%;
     top: 0%;
     transform: translate(0% -100%);
@@ -177,6 +182,27 @@ body {
     max-width: 550px;
     max-height: 550px;
     object-fit: contain;
+}
+
+.entry .image-preview{
+    display: inline-block;
+    align-items: center;
+    max-width: 150px;
+    max-height: 125px;
+    object-fit: contain;
+    margin: 2px 4px;
+}
+
+.entry .image-preview:hover {
+    box-shadow: rgb(251, 251, 251) 0px 0px 10px;
+    cursor: pointer;
+}
+
+.entry .preview-box {
+    width: fit-content;
+    background-color: #050e22;
+    padding: 3px;
+    margin: 10px 5px;
 }
 
 
